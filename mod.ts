@@ -1,4 +1,4 @@
-import { deadline } from "jsr:@std/async";
+import { deadline } from "jsr:@std/async@1";
 
 /**
  * IPアドレス文字列をバイト配列に変換します。
