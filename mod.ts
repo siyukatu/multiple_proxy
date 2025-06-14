@@ -1,4 +1,4 @@
-import { deadline } from "https://deno.land/std/async/mod.ts";
+import { deadline } from "jsr:@std/async@1";
 
 function ipAddrToBytes(ip: string): Uint8Array {
   return new Uint8Array(ip.split('.').map(Number));
